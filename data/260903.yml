@@ -1,30 +1,32 @@
 about:
-  description: GO Simple Tunnel - a simple tunnel written in golang
+  description:
+  |
+    GO Simple Tunnel - a simple tunnel written in golang
   license: MIT
   homepage: https://gost.run
   head: 27ac164
   archived: false
   latestVersion: v3.3.1-nightly.20260831
-  collectedAt: 2026-09-03T05:27:18Z
+  collectedAt: 2026-09-03T22:38:25Z
 timeline:
   created: 2020-02-12
   lastCommit: 2026-08-31
   lastRelease: 2026-08-31
 popularity:
-  star: 7393
+  star: 7398
   watcher: 49
-  fork: 818
+  fork: 819
   release: 33
   contributor: 18
   pullRequest: 8
-  issue: 785
+  issue: 786
 language:
   Go: 185155
   Python: 32692
   Makefile: 3321
   Shell: 2656
   Dockerfile: 924
-totalLine: 224748
+totalBytes: 224748
 recent:
   last30d:
     since: 2026-08-04
@@ -32,7 +34,7 @@ recent:
     mergedPR: 0
     openPR: 0
     closedIssue: 4
-    openIssue: 2
+    openIssue: 3
     commit: 10
   last90d:
     since: 2026-06-05
@@ -40,7 +42,7 @@ recent:
     mergedPR: 3
     openPR: 0
     closedIssue: 22
-    openIssue: 8
+    openIssue: 9
     commit: 72
   last180d:
     since: 2026-03-07
@@ -48,7 +50,7 @@ recent:
     mergedPR: 7
     openPR: 1
     closedIssue: 32
-    openIssue: 10
+    openIssue: 11
     commit: 95
   last360d:
     since: 2025-09-08
@@ -56,5 +58,5 @@ recent:
     mergedPR: 9
     openPR: 1
     closedIssue: 69
-    openIssue: 25
+    openIssue: 26
     commit: 103
