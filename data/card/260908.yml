@@ -5,7 +5,7 @@ about:
   head: 36cc266
   archived: false
   latestVersion: "v3.3.1-nightly.20260831"
-  collectedAt: 2026-09-08T02:56:13Z
+  collectedAt: 2026-09-08T05:48:35Z
 timeline:
   created: 2020-02-12
   lastCommit: 2026-09-07
@@ -13,7 +13,7 @@ timeline:
 popularity:
   star: 7427
   watcher: 50
-  fork: 821
+  fork: 822
   release: 32
   contributor: 18
   pullRequest: 36
@@ -83,7 +83,7 @@ total:
   commit: 554
 ---
 path: /home/runner/.x-repo/github.com/go-gost/gost
-collectedAt: 2026-09-08T02:56:14Z
+collectedAt: 2026-09-08T05:48:36Z
 loc:
   Go:
     code: 4215

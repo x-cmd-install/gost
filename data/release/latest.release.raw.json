@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 2470,
       "digest": "sha256:4820090db3500abaf9b9b8739f44607477673b53df2be9b3862d75fe2e92d1d1",
-      "download_count": 328,
+      "download_count": 336,
       "created_at": "2026-08-30T10:06:07Z",
       "updated_at": "2026-08-30T10:06:07Z",
       "browser_download_url": "https://github.com/go-gost/gost/releases/download/v3.3.0/checksums.txt"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 15846910,
       "digest": "sha256:f170226106844b50ab3435147f35d4300da773efca256b50cb2f8c7d3a151101",
-      "download_count": 171,
+      "download_count": 176,
       "created_at": "2026-08-30T10:06:04Z",
       "updated_at": "2026-08-30T10:06:05Z",
       "browser_download_url": "https://github.com/go-gost/gost/releases/download/v3.3.0/gost_3.3.0_darwin_arm64.tar.gz"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 16469534,
       "digest": "sha256:5d427d500f578f6f2fb897a600d151921f5d86939825bad4256565e0e98086ba",
-      "download_count": 76,
+      "download_count": 78,
       "created_at": "2026-08-30T10:05:59Z",
       "updated_at": "2026-08-30T10:06:00Z",
       "browser_download_url": "https://github.com/go-gost/gost/releases/download/v3.3.0/gost_3.3.0_linux_386.tar.gz"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 17733052,
       "digest": "sha256:676fb7f78d267b6ae73df719c0c7f2b565dde7147da935cfafbc1e1da558b6d5",
-      "download_count": 10283,
+      "download_count": 10550,
       "created_at": "2026-08-30T10:06:01Z",
       "updated_at": "2026-08-30T10:06:02Z",
       "browser_download_url": "https://github.com/go-gost/gost/releases/download/v3.3.0/gost_3.3.0_linux_amd64.tar.gz"
@@ -355,7 +355,7 @@
       "state": "uploaded",
       "size": 17721041,
       "digest": "sha256:bbb14cb01b27c6f3c02a06cf2aa939c6714bdc08109a713ec5c91e8258c38640",
-      "download_count": 173,
+      "download_count": 175,
       "created_at": "2026-08-30T10:06:04Z",
       "updated_at": "2026-08-30T10:06:05Z",
       "browser_download_url": "https://github.com/go-gost/gost/releases/download/v3.3.0/gost_3.3.0_linux_amd64v3.tar.gz"
@@ -391,7 +391,7 @@
       "state": "uploaded",
       "size": 15895564,
       "digest": "sha256:d03699e3f385d4ff5dad68046712adfcc7515325a064d2ab046e0bece30f8f8f",
-      "download_count": 347,
+      "download_count": 353,
       "created_at": "2026-08-30T10:06:05Z",
       "updated_at": "2026-08-30T10:06:07Z",
       "browser_download_url": "https://github.com/go-gost/gost/releases/download/v3.3.0/gost_3.3.0_linux_arm64.tar.gz"
@@ -895,7 +895,7 @@
       "state": "uploaded",
       "size": 17334347,
       "digest": "sha256:cc8ac946f86994a3aed47ef1f838cfb6b7649d9245c91fcb9899654b33d61170",
-      "download_count": 1102,
+      "download_count": 1120,
       "created_at": "2026-08-30T10:06:03Z",
       "updated_at": "2026-08-30T10:06:04Z",
       "browser_download_url": "https://github.com/go-gost/gost/releases/download/v3.3.0/gost_3.3.0_windows_amd64.zip"
