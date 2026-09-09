@@ -7,7 +7,7 @@ GO Simple Tunnel - a simple tunnel written in golang
 - **Latest release**: `v3.3.1-nightly.20260831` (2026-08-30)
 - **Last commit**: 2026-09-07
 - **License**: MIT
-- **Stars**: 7428 · **Forks**: 822 · **Open issues**: 786 · **Contributors**: 18
+- **Stars**: 7435 · **Forks**: 822 · **Open issues**: 786 · **Contributors**: 18
 
 ## Installation
 
@@ -19,6 +19,6 @@ See <https://x-cmd.com/install/gost> for details.
 
 ## Data
 
-This mirror is auto-maintained by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action). Latest card snapshot: `data/card/260908.yml`. Merged card+release view: `data/latest.report.yml`.
+This mirror is auto-maintained by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action). Latest card snapshot: `data/card/260909.yml`. Merged card+release view: `data/latest.report.yml`.
 
-_Last regenerated: 2026-09-08T12:22:38Z._
+_Last regenerated: 2026-09-09T05:57:06Z._
