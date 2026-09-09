@@ -7,7 +7,7 @@ about:
   latestVersion: "v3.3.1-nightly.20260831"
   latestRelease: "v3.3.0"
   latestPrerelease: "v3.3.1-nightly.20260831"
-  collectedAt: 2026-09-09T05:57:02Z
+  collectedAt: 2026-09-09T20:18:37Z
 timeline:
   created: 2020-02-12
   lastCommit: 2026-09-07
@@ -15,12 +15,12 @@ timeline:
   lastRelease: 2026-08-30
   lastPrerelease: 2026-08-31
 popularity:
-  star: 7435
+  star: 7446
   watcher: 50
-  fork: 822
+  fork: 824
   release: 32
   contributor: 18
-  pullRequest: 36
+  pullRequest: 37
   issue: 786
 language:
   Go: 189875
@@ -34,7 +34,7 @@ recent:
     since: 2026-08-10
     release: 3
     mergedPR: 0
-    openPR: 0
+    openPR: 1
     closedIssue: 3
     openIssue: 3
     commit: 13
@@ -42,7 +42,7 @@ recent:
     since: 2026-07-11
     release: 3
     mergedPR: 1
-    openPR: 0
+    openPR: 1
     closedIssue: 6
     openIssue: 5
     commit: 31
@@ -50,7 +50,7 @@ recent:
     since: 2026-06-11
     release: 3
     mergedPR: 3
-    openPR: 0
+    openPR: 1
     closedIssue: 20
     openIssue: 9
     commit: 75
@@ -58,7 +58,7 @@ recent:
     since: 2026-03-13
     release: 3
     mergedPR: 7
-    openPR: 0
+    openPR: 1
     closedIssue: 30
     openIssue: 11
     commit: 96
@@ -66,7 +66,7 @@ recent:
     since: 2025-09-14
     release: 5
     mergedPR: 9
-    openPR: 1
+    openPR: 2
     closedIssue: 67
     openIssue: 24
     commit: 106
@@ -74,20 +74,20 @@ recent:
     since: 2024-09-19
     release: 12
     mergedPR: 11
-    openPR: 1
+    openPR: 2
     closedIssue: 206
     openIssue: 59
     commit: 180
 total:
   release: 32
   mergedPR: 28
-  openPR: 1
+  openPR: 2
   closedIssue: 687
   openIssue: 99
   commit: 554
 ---
 path: /home/runner/.x-repo/github.com/go-gost/gost
-collectedAt: 2026-09-09T05:57:03Z
+collectedAt: 2026-09-09T20:18:38Z
 loc:
   Go:
     code: 4215
