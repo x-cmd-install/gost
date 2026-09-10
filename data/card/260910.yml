@@ -7,7 +7,7 @@ about:
   latestVersion: "v3.3.1-nightly.20260831"
   latestRelease: "v3.3.0"
   latestPrerelease: "v3.3.1-nightly.20260831"
-  collectedAt: 2026-09-10T06:07:12Z
+  collectedAt: 2026-09-10T20:22:51Z
 timeline:
   created: 2020-02-12
   lastCommit: 2026-09-07
@@ -15,9 +15,9 @@ timeline:
   lastRelease: 2026-08-30
   lastPrerelease: 2026-08-31
 popularity:
-  star: 7451
+  star: 7456
   watcher: 50
-  fork: 824
+  fork: 825
   release: 32
   contributor: 18
   pullRequest: 37
@@ -87,7 +87,7 @@ total:
   commit: 554
 ---
 path: /home/runner/.x-repo/github.com/go-gost/gost
-collectedAt: 2026-09-10T06:07:13Z
+collectedAt: 2026-09-10T20:22:53Z
 loc:
   Go:
     code: 4215
