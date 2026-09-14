@@ -42,28 +42,28 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `v3.3.1-nightly.20260912` (2026-08-30)
-- **Last commit**: 2026-09-12
+- **Latest**: `v3.3.1-nightly.20260913` (2026-08-30)
+- **Last commit**: 2026-09-13
 - **Assets in release**: 26
 
 ## Popularity
 
-- **Stars**: 7,465 · **Forks**: 826 · **Open issues**: 787 · **Contributors**: 19
+- **Stars**: 7,468 · **Forks**: 826 · **Open issues**: 787 · **Contributors**: 19
 
 ## Totals (cumulative)
 
-- **Releases**: 33 · **Merged PRs**: 29 · **Open PRs**: 1 · **Closed issues**: 687 · **Open issues**: 100 · **Commits**: 557
+- **Releases**: 33 · **Merged PRs**: 29 · **Open PRs**: 1 · **Closed issues**: 687 · **Open issues**: 100 · **Commits**: 558
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 4 | 1 | 0 | 3 | 4 | 14 |
-| last60d | 2026-07-15 | 4 | 1 | 0 | 6 | 6 | 28 |
-| 90d | 2026-06-15 | 4 | 4 | 0 | 20 | 9 | 66 |
-| last180d | 2026-03-17 | 4 | 7 | 0 | 30 | 12 | 99 |
-| 360d | 2025-09-18 | 6 | 10 | 1 | 66 | 25 | 108 |
-| last720d | 2024-09-23 | 13 | 12 | 1 | 206 | 60 | 182 |
+| 30d | 2026-08-15 | 4 | 1 | 0 | 3 | 4 | 15 |
+| last60d | 2026-07-16 | 4 | 1 | 0 | 6 | 6 | 29 |
+| 90d | 2026-06-16 | 4 | 4 | 0 | 20 | 9 | 67 |
+| last180d | 2026-03-18 | 4 | 7 | 0 | 30 | 12 | 100 |
+| 360d | 2025-09-19 | 6 | 10 | 1 | 66 | 25 | 109 |
+| last720d | 2024-09-24 | 13 | 12 | 1 | 206 | 60 | 183 |
 
 ## Release assets
 
@@ -96,18 +96,6 @@ Lowest-scoring checks:
 | [gost_3.3.0_windows_amd64v3.zip](https://github.com/go-gost/gost/releases/download/v3.3.0/gost_3.3.0_windows_amd64v3.zip) | 16.5 MiB | `native/win/x64` |
 | [gost_3.3.0_windows_arm64.zip](https://github.com/go-gost/gost/releases/download/v3.3.0/gost_3.3.0_windows_arm64.zip) | 14.5 MiB | `native/win/arm64` |
 
-## Distribution status
-
-Reported by **46** distros on [repology.org](https://repology.org/project/gost). **10** are ✅ on the latest upstream release, **35** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Ubuntu 24.04 LTS | `0.1.2` | ⚠️ outdated |
-| Arch | `3.3.0` | ✅ latest |
-| Homebrew | `3.3.0` | ✅ latest |
-| Nix unstable | `3.3.0` | ✅ latest |
-| Alpine edge | `3.2.6` | ⚠️ outdated |
-
 ## Improve this data
 
 Install metadata for gost lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `gost` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -117,4 +105,4 @@ Install metadata for gost lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T05:59:34Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T06:29:29Z._
