@@ -30,9 +30,9 @@ x install gost
 
 评分最低的几项:
 
-- **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
+- **Code-Review** (0/10) — Found 1/30 approved changesets -- score normalized to 0
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
-- **SAST** (0/10) — no SAST tool detected
+- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
 ## 源代码
 
@@ -48,7 +48,7 @@ x install gost
 
 ## 流行度
 
-- **Star**: 7,478 · **Fork**: 826 · **开放 issue**: 788 · **贡献者**: 19
+- **Star**: 7,486 · **Fork**: 828 · **开放 issue**: 788 · **贡献者**: 19
 
 ## 累计统计
 
@@ -58,12 +58,12 @@ x install gost
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-16 | 4 | 1 | 0 | 3 | 5 | 15 |
-| last60d | 2026-07-17 | 4 | 1 | 0 | 6 | 7 | 29 |
-| 90d | 2026-06-17 | 4 | 4 | 0 | 20 | 10 | 67 |
-| last180d | 2026-03-19 | 4 | 7 | 0 | 30 | 13 | 100 |
-| 360d | 2025-09-20 | 6 | 10 | 1 | 66 | 26 | 109 |
-| last720d | 2024-09-25 | 13 | 12 | 1 | 206 | 61 | 182 |
+| 30d | 2026-08-17 | 4 | 1 | 0 | 3 | 5 | 15 |
+| last60d | 2026-07-18 | 4 | 1 | 0 | 6 | 7 | 29 |
+| 90d | 2026-06-18 | 4 | 3 | 0 | 18 | 10 | 67 |
+| last180d | 2026-03-20 | 4 | 7 | 0 | 30 | 13 | 100 |
+| 360d | 2025-09-21 | 6 | 10 | 1 | 65 | 26 | 109 |
+| last720d | 2024-09-26 | 13 | 12 | 1 | 206 | 61 | 182 |
 
 ## Release 资产
 
@@ -105,4 +105,4 @@ gost 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260915.yml` · 2026-09-15T06:28:06Z._
+_数据快照: `data/card/260916.yml` · 2026-09-16T06:24:51Z._

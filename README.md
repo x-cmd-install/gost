@@ -30,9 +30,9 @@ Overall score: **3.8 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
+- **Code-Review** (0/10) — Found 1/30 approved changesets -- score normalized to 0
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
-- **SAST** (0/10) — no SAST tool detected
+- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
 ## Source
 
@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 7,478 · **Forks**: 826 · **Open issues**: 788 · **Contributors**: 19
+- **Stars**: 7,486 · **Forks**: 828 · **Open issues**: 788 · **Contributors**: 19
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-16 | 4 | 1 | 0 | 3 | 5 | 15 |
-| last60d | 2026-07-17 | 4 | 1 | 0 | 6 | 7 | 29 |
-| 90d | 2026-06-17 | 4 | 4 | 0 | 20 | 10 | 67 |
-| last180d | 2026-03-19 | 4 | 7 | 0 | 30 | 13 | 100 |
-| 360d | 2025-09-20 | 6 | 10 | 1 | 66 | 26 | 109 |
-| last720d | 2024-09-25 | 13 | 12 | 1 | 206 | 61 | 182 |
+| 30d | 2026-08-17 | 4 | 1 | 0 | 3 | 5 | 15 |
+| last60d | 2026-07-18 | 4 | 1 | 0 | 6 | 7 | 29 |
+| 90d | 2026-06-18 | 4 | 3 | 0 | 18 | 10 | 67 |
+| last180d | 2026-03-20 | 4 | 7 | 0 | 30 | 13 | 100 |
+| 360d | 2025-09-21 | 6 | 10 | 1 | 65 | 26 | 109 |
+| last720d | 2024-09-26 | 13 | 12 | 1 | 206 | 61 | 182 |
 
 ## Release assets
 
@@ -105,4 +105,4 @@ Install metadata for gost lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260915.yml` · 2026-09-15T06:28:05Z._
+_Snapshot: `data/card/260916.yml` · 2026-09-16T06:24:50Z._
