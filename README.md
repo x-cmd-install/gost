@@ -4,7 +4,7 @@
 
 GO Simple Tunnel - a simple tunnel written in golang
 
-![gost](https://repo.x-cmd.io/gost.svg)
+[![x-cmd/install — gost Code Quality Monitoring Repo Card](https://repo.x-cmd.io/gost.svg)](https://x-cmd.com/install/gost)
 
 ## Install
 
@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 7,494 · **Forks**: 829 · **Open issues**: 788 · **Contributors**: 19
+- **Stars**: 7,504 · **Forks**: 830 · **Open issues**: 788 · **Contributors**: 19
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 4 | 1 | 1 | 2 | 5 | 15 |
-| last60d | 2026-07-20 | 4 | 1 | 1 | 6 | 7 | 29 |
-| 90d | 2026-06-20 | 4 | 3 | 1 | 17 | 10 | 67 |
-| last180d | 2026-03-22 | 4 | 7 | 1 | 30 | 13 | 100 |
-| 360d | 2025-09-23 | 6 | 10 | 2 | 63 | 26 | 109 |
-| last720d | 2024-09-28 | 13 | 12 | 2 | 205 | 61 | 181 |
+| 30d | 2026-08-21 | 4 | 1 | 1 | 1 | 5 | 10 |
+| last60d | 2026-07-22 | 4 | 1 | 1 | 6 | 7 | 21 |
+| 90d | 2026-06-22 | 4 | 3 | 1 | 16 | 10 | 56 |
+| last180d | 2026-03-24 | 4 | 7 | 1 | 29 | 13 | 100 |
+| 360d | 2025-09-25 | 6 | 10 | 2 | 62 | 26 | 109 |
+| last720d | 2024-09-30 | 13 | 12 | 2 | 205 | 60 | 181 |
 
 ## Release assets
 
@@ -105,4 +105,4 @@ Install metadata for gost lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260918.yml` · 2026-09-18T06:24:12Z._
+_Snapshot: `data/card/260920.yml` · 2026-09-20T06:11:32Z._
