@@ -4,7 +4,7 @@
 
 GO Simple Tunnel - a simple tunnel written in golang
 
-[![x-cmd/install — gost Code Quality Monitoring Repo Card](https://repo.x-cmd.io/gost.svg?lang=zh)](https://x-cmd.com/install/gost)
+[![x-cmd/install — gost Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/gost.svg?lang=zh)](https://x-cmd.com/install/gost)
 
 ## 安装
 
@@ -26,11 +26,11 @@ x install gost
 
 ## OpenSSF Scorecard 评分
 
-总评分: **3.8 / 10**
+总评分: **3.9 / 10**
 
 评分最低的几项:
 
-- **Code-Review** (0/10) — Found 1/30 approved changesets -- score normalized to 0
+- **Code-Review** (1/10) — Found 3/30 approved changesets -- score normalized to 1
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
@@ -42,28 +42,28 @@ x install gost
 
 ## 发布
 
-- **最新版本**: `v3.3.1-nightly.20260921` (2026-08-30)
-- **最近提交**: 2026-09-21
+- **最新版本**: `v3.3.1-nightly.20260922` (2026-08-30)
+- **最近提交**: 2026-09-22
 - **Release 含资产**: 26 个
 
 ## 流行度
 
-- **Star**: 7,517 · **Fork**: 830 · **开放 issue**: 788 · **贡献者**: 19
+- **Star**: 7,523 · **Fork**: 830 · **开放 issue**: 788 · **贡献者**: 19
 
 ## 累计统计
 
-- **发布数**: 33 · **已合并 PR**: 30 · **开放 PR**: 2 · **已关闭 issue**: 688 · **开放 issue**: 100 · **提交数**: 562
+- **发布数**: 33 · **已合并 PR**: 31 · **开放 PR**: 1 · **已关闭 issue**: 688 · **开放 issue**: 100 · **提交数**: 563
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 4 | 2 | 1 | 2 | 4 | 14 |
-| last60d | 2026-07-24 | 4 | 2 | 1 | 7 | 6 | 25 |
-| 90d | 2026-06-24 | 4 | 4 | 1 | 14 | 9 | 60 |
-| last180d | 2026-03-26 | 4 | 8 | 1 | 30 | 12 | 104 |
-| 360d | 2025-09-27 | 6 | 11 | 2 | 63 | 25 | 113 |
-| last720d | 2024-10-02 | 13 | 13 | 2 | 206 | 59 | 185 |
+| 30d | 2026-08-24 | 4 | 3 | 0 | 2 | 4 | 15 |
+| last60d | 2026-07-25 | 4 | 3 | 0 | 7 | 6 | 26 |
+| 90d | 2026-06-25 | 4 | 5 | 0 | 13 | 9 | 61 |
+| last180d | 2026-03-27 | 4 | 9 | 0 | 30 | 12 | 105 |
+| 360d | 2025-09-28 | 6 | 12 | 1 | 63 | 25 | 114 |
+| last720d | 2024-10-03 | 13 | 14 | 1 | 206 | 59 | 185 |
 
 ## Release 资产
 
@@ -105,4 +105,4 @@ gost 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260922.yml` · 2026-09-22T06:19:40Z._
+_数据快照: `data/card/260923.yml` · 2026-09-23T06:30:31Z._

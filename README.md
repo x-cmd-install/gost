@@ -4,7 +4,7 @@
 
 GO Simple Tunnel - a simple tunnel written in golang
 
-[![x-cmd/install — gost Code Quality Monitoring Repo Card](https://repo.x-cmd.io/gost.svg)](https://x-cmd.com/install/gost)
+[![x-cmd/install — gost Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/gost.svg)](https://x-cmd.com/install/gost)
 
 ## Install
 
@@ -26,11 +26,11 @@ Total: **7,292** lines of code across **160** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **3.8 / 10**
+Overall score: **3.9 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (0/10) — Found 1/30 approved changesets -- score normalized to 0
+- **Code-Review** (1/10) — Found 3/30 approved changesets -- score normalized to 1
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
@@ -42,28 +42,28 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `v3.3.1-nightly.20260921` (2026-08-30)
-- **Last commit**: 2026-09-21
+- **Latest**: `v3.3.1-nightly.20260922` (2026-08-30)
+- **Last commit**: 2026-09-22
 - **Assets in release**: 26
 
 ## Popularity
 
-- **Stars**: 7,517 · **Forks**: 830 · **Open issues**: 788 · **Contributors**: 19
+- **Stars**: 7,523 · **Forks**: 830 · **Open issues**: 788 · **Contributors**: 19
 
 ## Totals (cumulative)
 
-- **Releases**: 33 · **Merged PRs**: 30 · **Open PRs**: 2 · **Closed issues**: 688 · **Open issues**: 100 · **Commits**: 562
+- **Releases**: 33 · **Merged PRs**: 31 · **Open PRs**: 1 · **Closed issues**: 688 · **Open issues**: 100 · **Commits**: 563
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 4 | 2 | 1 | 2 | 4 | 14 |
-| last60d | 2026-07-24 | 4 | 2 | 1 | 7 | 6 | 25 |
-| 90d | 2026-06-24 | 4 | 4 | 1 | 14 | 9 | 60 |
-| last180d | 2026-03-26 | 4 | 8 | 1 | 30 | 12 | 104 |
-| 360d | 2025-09-27 | 6 | 11 | 2 | 63 | 25 | 113 |
-| last720d | 2024-10-02 | 13 | 13 | 2 | 206 | 59 | 185 |
+| 30d | 2026-08-24 | 4 | 3 | 0 | 2 | 4 | 15 |
+| last60d | 2026-07-25 | 4 | 3 | 0 | 7 | 6 | 26 |
+| 90d | 2026-06-25 | 4 | 5 | 0 | 13 | 9 | 61 |
+| last180d | 2026-03-27 | 4 | 9 | 0 | 30 | 12 | 105 |
+| 360d | 2025-09-28 | 6 | 12 | 1 | 63 | 25 | 114 |
+| last720d | 2024-10-03 | 13 | 14 | 1 | 206 | 59 | 185 |
 
 ## Release assets
 
@@ -105,4 +105,4 @@ Install metadata for gost lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260922.yml` · 2026-09-22T06:19:40Z._
+_Snapshot: `data/card/260923.yml` · 2026-09-23T06:30:30Z._
