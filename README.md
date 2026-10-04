@@ -14,13 +14,13 @@ x install gost
 
 ## Code insight
 
-Total: **7,292** lines of code across **160** files in the top 5 languages.
+Total: **7,548** lines of code across **165** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 4,215 | 739 | 746 | 34 |
-| Yaml | 2,031 | 120 | 94 | 105 |
-| Python | 858 | 34 | 211 | 19 |
+| Go | 4,318 | 768 | 761 | 35 |
+| Yaml | 2,098 | 141 | 100 | 108 |
+| Python | 944 | 39 | 225 | 20 |
 | Makefile | 88 | 0 | 31 | 1 |
 | Sh | 79 | 13 | 10 | 1 |
 
@@ -42,28 +42,28 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `v3.3.1-nightly.20260922` (2026-08-30)
-- **Last commit**: 2026-09-22
+- **Latest**: `v3.3.1-nightly.20261003` (2026-08-30)
+- **Last commit**: 2026-10-03
 - **Assets in release**: 26
 
 ## Popularity
 
-- **Stars**: 7,565 · **Forks**: 834 · **Open issues**: 790 · **Contributors**: 19
+- **Stars**: 7,571 · **Forks**: 834 · **Open issues**: 790 · **Contributors**: 19
 
 ## Totals (cumulative)
 
-- **Releases**: 33 · **Merged PRs**: 31 · **Open PRs**: 2 · **Closed issues**: 689 · **Open issues**: 101 · **Commits**: 563
+- **Releases**: 33 · **Merged PRs**: 31 · **Open PRs**: 2 · **Closed issues**: 689 · **Open issues**: 101 · **Commits**: 565
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-03 | 3 | 3 | 1 | 1 | 3 | 12 |
-| last60d | 2026-08-04 | 4 | 3 | 1 | 5 | 6 | 22 |
-| 90d | 2026-07-05 | 4 | 5 | 1 | 8 | 9 | 54 |
-| last180d | 2026-04-06 | 4 | 9 | 1 | 30 | 14 | 105 |
-| 360d | 2025-10-08 | 6 | 12 | 2 | 62 | 24 | 114 |
-| last720d | 2024-10-13 | 13 | 14 | 2 | 200 | 61 | 179 |
+| 30d | 2026-09-04 | 3 | 3 | 1 | 1 | 3 | 11 |
+| last60d | 2026-08-05 | 4 | 3 | 1 | 5 | 6 | 24 |
+| 90d | 2026-07-06 | 4 | 5 | 1 | 8 | 8 | 53 |
+| last180d | 2026-04-07 | 4 | 9 | 1 | 30 | 14 | 107 |
+| 360d | 2025-10-09 | 6 | 12 | 2 | 62 | 24 | 114 |
+| last720d | 2024-10-14 | 13 | 14 | 2 | 199 | 61 | 181 |
 
 ## Release assets
 
@@ -105,4 +105,4 @@ Install metadata for gost lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261003.yml` · 2026-10-03T06:20:56Z._
+_Snapshot: `data/card/261004.yml` · 2026-10-04T06:51:24Z._
