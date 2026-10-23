@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 7,679 · **Forks**: 837 · **Open issues**: 795 · **Contributors**: 19
+- **Stars**: 7,686 · **Forks**: 838 · **Open issues**: 795 · **Contributors**: 19
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 4 | 2 | 0 | 1 | 6 | 7 |
-| last60d | 2026-08-23 | 5 | 5 | 0 | 3 | 10 | 26 |
-| 90d | 2026-07-24 | 5 | 5 | 0 | 8 | 12 | 35 |
-| last180d | 2026-04-25 | 5 | 10 | 0 | 29 | 18 | 111 |
-| 360d | 2025-10-27 | 6 | 14 | 1 | 57 | 27 | 120 |
-| last720d | 2024-11-01 | 14 | 16 | 1 | 194 | 64 | 178 |
+| 30d | 2026-09-23 | 4 | 2 | 0 | 1 | 5 | 7 |
+| last60d | 2026-08-24 | 5 | 5 | 0 | 3 | 10 | 26 |
+| 90d | 2026-07-25 | 5 | 5 | 0 | 8 | 12 | 35 |
+| last180d | 2026-04-26 | 5 | 10 | 0 | 29 | 18 | 111 |
+| 360d | 2025-10-28 | 6 | 14 | 1 | 56 | 27 | 120 |
+| last720d | 2024-11-02 | 14 | 16 | 1 | 194 | 64 | 177 |
 
 ## Release assets
 
@@ -102,6 +102,18 @@ Lowest-scoring checks:
 | [gost_3.3.1_windows_amd64v3.zip](https://github.com/go-gost/gost/releases/download/v3.3.1/gost_3.3.1_windows_amd64v3.zip) | 16.6 MiB | `native/win/x64` |
 | [gost_3.3.1_windows_arm64.zip](https://github.com/go-gost/gost/releases/download/v3.3.1/gost_3.3.1_windows_arm64.zip) | 14.6 MiB | `native/win/arm64` |
 
+## Distribution status
+
+Reported by **43** distros on [repology.org](https://repology.org/project/gost). **4** are ✅ on the latest upstream release, **38** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Ubuntu 24.04 LTS | `0.1.2` | ⚠️ outdated |
+| Arch | `3.3.1` | ✅ latest |
+| Homebrew | `3.3.1` | ✅ latest |
+| Nix unstable | `3.3.0` | ⚠️ outdated |
+| Alpine edge | `3.2.6` | ⚠️ outdated |
+
 ## Improve this data
 
 Install metadata for gost lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `gost` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -111,4 +123,4 @@ Install metadata for gost lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261022.yml` · 2026-10-22T05:47:11Z._
+_Snapshot: `data/card/261023.yml` · 2026-10-23T05:47:05Z._

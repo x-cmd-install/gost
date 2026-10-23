@@ -48,7 +48,7 @@ x install gost
 
 ## 流行度
 
-- **Star**: 7,679 · **Fork**: 837 · **开放 issue**: 795 · **贡献者**: 19
+- **Star**: 7,686 · **Fork**: 838 · **开放 issue**: 795 · **贡献者**: 19
 
 ## 累计统计
 
@@ -58,12 +58,12 @@ x install gost
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 4 | 2 | 0 | 1 | 6 | 7 |
-| last60d | 2026-08-23 | 5 | 5 | 0 | 3 | 10 | 26 |
-| 90d | 2026-07-24 | 5 | 5 | 0 | 8 | 12 | 35 |
-| last180d | 2026-04-25 | 5 | 10 | 0 | 29 | 18 | 111 |
-| 360d | 2025-10-27 | 6 | 14 | 1 | 57 | 27 | 120 |
-| last720d | 2024-11-01 | 14 | 16 | 1 | 194 | 64 | 178 |
+| 30d | 2026-09-23 | 4 | 2 | 0 | 1 | 5 | 7 |
+| last60d | 2026-08-24 | 5 | 5 | 0 | 3 | 10 | 26 |
+| 90d | 2026-07-25 | 5 | 5 | 0 | 8 | 12 | 35 |
+| last180d | 2026-04-26 | 5 | 10 | 0 | 29 | 18 | 111 |
+| 360d | 2025-10-28 | 6 | 14 | 1 | 56 | 27 | 120 |
+| last720d | 2024-11-02 | 14 | 16 | 1 | 194 | 64 | 177 |
 
 ## Release 资产
 
@@ -102,6 +102,18 @@ x install gost
 | [gost_3.3.1_windows_amd64v3.zip](https://github.com/go-gost/gost/releases/download/v3.3.1/gost_3.3.1_windows_amd64v3.zip) | 16.6 MiB | `native/win/x64` |
 | [gost_3.3.1_windows_arm64.zip](https://github.com/go-gost/gost/releases/download/v3.3.1/gost_3.3.1_windows_arm64.zip) | 14.6 MiB | `native/win/arm64` |
 
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/gost) 上共有 **43** 个发行版报告此项目。**4** 个 ✅ 已是最新上游版本，**38** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Ubuntu 24.04 LTS | `0.1.2` | ⚠️ outdated |
+| Arch | `3.3.1` | ✅ latest |
+| Homebrew | `3.3.1` | ✅ latest |
+| Nix unstable | `3.3.0` | ⚠️ outdated |
+| Alpine edge | `3.2.6` | ⚠️ outdated |
+
 ## 改进这些数据
 
 gost 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `gost` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -111,4 +123,4 @@ gost 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261022.yml` · 2026-10-22T05:47:12Z._
+_数据快照: `data/card/261023.yml` · 2026-10-23T05:47:05Z._
