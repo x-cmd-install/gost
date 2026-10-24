@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 7,686 · **Forks**: 838 · **Open issues**: 795 · **Contributors**: 19
+- **Stars**: 7,691 · **Forks**: 838 · **Open issues**: 795 · **Contributors**: 19
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-23 | 4 | 2 | 0 | 1 | 5 | 7 |
-| last60d | 2026-08-24 | 5 | 5 | 0 | 3 | 10 | 26 |
-| 90d | 2026-07-25 | 5 | 5 | 0 | 8 | 12 | 35 |
-| last180d | 2026-04-26 | 5 | 10 | 0 | 29 | 18 | 111 |
-| 360d | 2025-10-28 | 6 | 14 | 1 | 56 | 27 | 120 |
-| last720d | 2024-11-02 | 14 | 16 | 1 | 194 | 64 | 177 |
+| 30d | 2026-09-24 | 4 | 1 | 0 | 1 | 5 | 7 |
+| last60d | 2026-08-25 | 5 | 5 | 0 | 3 | 10 | 26 |
+| 90d | 2026-07-26 | 5 | 5 | 0 | 8 | 12 | 35 |
+| last180d | 2026-04-27 | 5 | 10 | 0 | 29 | 18 | 111 |
+| 360d | 2025-10-29 | 6 | 14 | 1 | 56 | 27 | 120 |
+| last720d | 2024-11-03 | 14 | 16 | 1 | 193 | 64 | 176 |
 
 ## Release assets
 
@@ -104,7 +104,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **43** distros on [repology.org](https://repology.org/project/gost). **4** are ✅ on the latest upstream release, **38** are ⚠️ on an older version.
+Reported by **43** distros on [repology.org](https://repology.org/project/gost). **5** are ✅ on the latest upstream release, **37** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -123,4 +123,4 @@ Install metadata for gost lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261023.yml` · 2026-10-23T05:47:05Z._
+_Snapshot: `data/card/261024.yml` · 2026-10-24T05:33:38Z._
