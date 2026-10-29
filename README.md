@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 7,729 · **Forks**: 840 · **Open issues**: 798 · **Contributors**: 19
+- **Stars**: 7,743 · **Forks**: 840 · **Open issues**: 799 · **Contributors**: 19
 
 ## Totals (cumulative)
 
-- **Releases**: 35 · **Merged PRs**: 33 · **Open PRs**: 1 · **Closed issues**: 693 · **Open issues**: 105 · **Commits**: 575
+- **Releases**: 35 · **Merged PRs**: 33 · **Open PRs**: 1 · **Closed issues**: 693 · **Open issues**: 106 · **Commits**: 575
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-28 | 5 | 1 | 0 | 3 | 6 | 9 |
-| last60d | 2026-08-29 | 6 | 5 | 0 | 4 | 11 | 22 |
-| 90d | 2026-07-30 | 6 | 5 | 0 | 9 | 12 | 32 |
-| last180d | 2026-05-01 | 6 | 10 | 0 | 31 | 18 | 113 |
-| 360d | 2025-11-02 | 7 | 14 | 1 | 59 | 26 | 122 |
-| last720d | 2024-11-07 | 15 | 16 | 1 | 195 | 64 | 178 |
+| 30d | 2026-09-29 | 5 | 1 | 0 | 3 | 7 | 9 |
+| last60d | 2026-08-30 | 6 | 5 | 0 | 4 | 12 | 22 |
+| 90d | 2026-07-31 | 6 | 5 | 0 | 9 | 13 | 32 |
+| last180d | 2026-05-02 | 6 | 10 | 0 | 31 | 19 | 113 |
+| 360d | 2025-11-03 | 7 | 14 | 1 | 59 | 27 | 122 |
+| last720d | 2024-11-08 | 15 | 16 | 1 | 194 | 65 | 177 |
 
 ## Release assets
 
@@ -104,12 +104,12 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **43** distros on [repology.org](https://repology.org/project/gost). **2** are ✅ on the latest upstream release, **40** are ⚠️ on an older version.
+Reported by **43** distros on [repology.org](https://repology.org/project/gost). **4** are ✅ on the latest upstream release, **38** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
 | Ubuntu 24.04 LTS | `0.1.2` | ⚠️ outdated |
-| Arch | `3.3.1` | ⚠️ outdated |
+| Arch | `3.3.2` | ✅ latest |
 | Homebrew | `3.3.2` | ✅ latest |
 | Nix unstable | `3.3.1` | ⚠️ outdated |
 | Alpine edge | `3.2.6` | ⚠️ outdated |
@@ -123,4 +123,4 @@ Install metadata for gost lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261028.yml` · 2026-10-28T06:55:53Z._
+_Snapshot: `data/card/261029.yml` · 2026-10-29T06:50:43Z._
