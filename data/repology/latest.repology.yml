@@ -1,18 +1,3 @@
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: gost
-  binnames:
-    - golang-github-knqyf263-gost-dev
-    - gost
-  visiblename: gost
-  version: 0.1.0+git20181204.5afeda5e
-  origversion: 0.1.0+git20181204.5afeda5e-1
-  status: outdated
-  maintainers:
-    - pkg-go-maintainers@lists.alioth.debian.org
-    - iwamatsu@debian.org
-  categories:
-    - devel
 - repo: alpine_3_23
   subrepo: community
   srcname: gost
@@ -124,9 +109,9 @@
   srcname: gost
   binname: gost
   visiblename: gost
-  version: 3.3.1
-  origversion: 3.3.1-1
-  status: outdated
+  version: 3.3.2
+  origversion: 3.3.2-1
+  status: newest
   summary: GO Simple Tunnel
   licenses:
     - MIT
@@ -342,9 +327,9 @@
   srcname: gost
   binname: gost
   visiblename: gost
-  version: 3.3.1
-  origversion: 3.3.1-1
-  status: outdated
+  version: 3.3.2
+  origversion: 3.3.2-1
+  status: newest
   summary: GO Simple Tunnel
   licenses:
     - MIT
@@ -363,6 +348,21 @@
     - iwamatsu@debian.org
   categories:
     - misc
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: gost
+  binnames:
+    - golang-github-knqyf263-gost-dev
+    - gost
+  visiblename: gost
+  version: 0.1.0+git20181204.5afeda5e
+  origversion: 0.1.0+git20181204.5afeda5e-1
+  status: outdated
+  maintainers:
+    - pkg-go-maintainers@lists.alioth.debian.org
+    - iwamatsu@debian.org
+  categories:
+    - devel
 - repo: pureos_byzantium
   subrepo: byzantium/main
   srcname: gost
@@ -471,21 +471,6 @@
   categories:
     - universe/misc
 - repo: ubuntu_22_04
-  subrepo: jammy/universe
-  srcname: gost
-  binnames:
-    - golang-github-knqyf263-gost-dev
-    - gost
-  visiblename: gost
-  version: 0.1.0+git20181204.5afeda5e
-  origversion: 0.1.0+git20181204.5afeda5e-1.1
-  status: outdated
-  maintainers:
-    - pkg-go-maintainers@lists.alioth.debian.org
-    - iwamatsu@debian.org
-  categories:
-    - universe/misc
-- repo: ubuntu_22_04
   subrepo: jammy-updates/universe
   srcname: gost
   binnames:
@@ -497,6 +482,21 @@
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
+    - iwamatsu@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_22_04
+  subrepo: jammy/universe
+  srcname: gost
+  binnames:
+    - golang-github-knqyf263-gost-dev
+    - gost
+  visiblename: gost
+  version: 0.1.0+git20181204.5afeda5e
+  origversion: 0.1.0+git20181204.5afeda5e-1.1
+  status: outdated
+  maintainers:
+    - pkg-go-maintainers@lists.alioth.debian.org
     - iwamatsu@debian.org
   categories:
     - universe/misc
