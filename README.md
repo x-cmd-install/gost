@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 7,743 · **Forks**: 840 · **Open issues**: 799 · **Contributors**: 19
+- **Stars**: 7,753 · **Forks**: 841 · **Open issues**: 799 · **Contributors**: 19
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-29 | 5 | 1 | 0 | 3 | 7 | 9 |
-| last60d | 2026-08-30 | 6 | 5 | 0 | 4 | 12 | 22 |
-| 90d | 2026-07-31 | 6 | 5 | 0 | 9 | 13 | 32 |
-| last180d | 2026-05-02 | 6 | 10 | 0 | 31 | 19 | 113 |
-| 360d | 2025-11-03 | 7 | 14 | 1 | 59 | 27 | 122 |
-| last720d | 2024-11-08 | 15 | 16 | 1 | 194 | 65 | 177 |
+| 30d | 2026-09-30 | 5 | 1 | 0 | 3 | 7 | 9 |
+| last60d | 2026-08-31 | 5 | 5 | 0 | 4 | 11 | 22 |
+| 90d | 2026-08-01 | 6 | 5 | 0 | 9 | 13 | 32 |
+| last180d | 2026-05-03 | 6 | 10 | 0 | 31 | 19 | 113 |
+| 360d | 2025-11-04 | 7 | 14 | 1 | 59 | 27 | 122 |
+| last720d | 2024-11-09 | 15 | 16 | 1 | 194 | 65 | 177 |
 
 ## Release assets
 
@@ -104,7 +104,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **43** distros on [repology.org](https://repology.org/project/gost). **4** are ✅ on the latest upstream release, **38** are ⚠️ on an older version.
+Reported by **43** distros on [repology.org](https://repology.org/project/gost). **5** are ✅ on the latest upstream release, **37** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -123,4 +123,4 @@ Install metadata for gost lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261029.yml` · 2026-10-29T06:50:43Z._
+_Snapshot: `data/card/261030.yml` · 2026-10-30T06:55:18Z._
