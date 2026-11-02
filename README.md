@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 7,768 · **Forks**: 842 · **Open issues**: 800 · **Contributors**: 19
+- **Stars**: 7,774 · **Forks**: 843 · **Open issues**: 800 · **Contributors**: 19
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-02 | 5 | 1 | 0 | 3 | 7 | 7 |
-| last60d | 2026-09-02 | 5 | 5 | 0 | 4 | 11 | 19 |
-| 90d | 2026-08-03 | 6 | 5 | 0 | 9 | 13 | 32 |
-| last180d | 2026-05-05 | 6 | 10 | 0 | 31 | 20 | 113 |
-| 360d | 2025-11-06 | 7 | 14 | 1 | 58 | 28 | 122 |
-| last720d | 2024-11-11 | 15 | 16 | 1 | 194 | 66 | 177 |
+| 30d | 2026-10-03 | 5 | 1 | 0 | 3 | 7 | 7 |
+| last60d | 2026-09-03 | 5 | 5 | 0 | 4 | 10 | 19 |
+| 90d | 2026-08-04 | 6 | 5 | 0 | 8 | 13 | 32 |
+| last180d | 2026-05-06 | 6 | 10 | 0 | 31 | 20 | 113 |
+| 360d | 2025-11-07 | 7 | 14 | 1 | 58 | 28 | 122 |
+| last720d | 2024-11-12 | 15 | 16 | 1 | 193 | 66 | 177 |
 
 ## Release assets
 
@@ -110,7 +110,7 @@ Reported by **43** distros on [repology.org](https://repology.org/project/gost).
 |--------|---------|--------|
 | Ubuntu 24.04 LTS | `0.1.2` | ⚠️ outdated |
 | Arch | `3.3.2` | ✅ latest |
-| Homebrew | `3.3.2` | ✅ latest |
+| Homebrew | `HEAD` | 🔄 rolling |
 | Nix unstable | `3.3.1` | ⚠️ outdated |
 | Alpine edge | `3.2.6` | ⚠️ outdated |
 
@@ -123,4 +123,4 @@ Install metadata for gost lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261101.yml` · 2026-11-01T07:17:47Z._
+_Snapshot: `data/card/261102.yml` · 2026-11-02T07:19:24Z._
