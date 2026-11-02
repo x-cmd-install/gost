@@ -1,4 +1,26 @@
-- repo: arch
+- repo: homebrew
+  srcname: gost
+  visiblename: gost
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: GO Simple Tunnel - a simple tunnel written in golang
+- repo: pardus_21
+  subrepo: main
+  srcname: gost
+  binnames:
+    - golang-github-knqyf263-gost-dev
+    - gost
+  visiblename: gost
+  version: 0.1.0+git20181204.5afeda5e
+  origversion: 0.1.0+git20181204.5afeda5e-1.1
+  status: outdated
+  maintainers:
+    - pkg-go-maintainers@lists.alioth.debian.org
+    - iwamatsu@debian.org
+  categories:
+    - misc
+- repo: parabola
   subrepo: extra
   srcname: gost
   binname: gost
@@ -9,16 +31,84 @@
   summary: GO Simple Tunnel
   licenses:
     - MIT
-- repo: termux
+- repo: alpine_3_23
+  subrepo: community
   srcname: gost
   binname: gost
   visiblename: gost
-  version: 3.3.2
-  origversion: null
-  status: newest
+  version: 3.2.5
+  origversion: 3.2.5-r6
+  status: outdated
   summary: GO Simple Tunnel - a simple tunnel written in golang
   maintainers:
-    - ian4hu@github
+    - mengzhuo@iscas.ac.cn
+  licenses:
+    - MIT
+- repo: alpine_3_23
+  subrepo: community
+  srcname: gost
+  binname: gost-doc
+  visiblename: gost-doc
+  version: 3.2.5
+  origversion: 3.2.5-r6
+  status: outdated
+  summary: GO Simple Tunnel - a simple tunnel written in golang (documentation)
+  maintainers:
+    - mengzhuo@iscas.ac.cn
+  licenses:
+    - MIT
+- repo: alpine_3_24
+  subrepo: community
+  srcname: gost
+  binname: gost
+  visiblename: gost
+  version: 3.2.6
+  origversion: 3.2.6-r7
+  status: outdated
+  summary: GO Simple Tunnel - a simple tunnel written in golang
+  maintainers:
+    - mengzhuo@iscas.ac.cn
+  licenses:
+    - MIT
+- repo: alpine_3_24
+  subrepo: community
+  srcname: gost
+  binname: gost-doc
+  visiblename: gost-doc
+  version: 3.2.6
+  origversion: 3.2.6-r7
+  status: outdated
+  summary: GO Simple Tunnel - a simple tunnel written in golang (documentation)
+  maintainers:
+    - mengzhuo@iscas.ac.cn
+  licenses:
+    - MIT
+- repo: alpine_edge
+  subrepo: community
+  srcname: gost
+  binname: gost
+  visiblename: gost
+  version: 3.2.6
+  origversion: 3.2.6-r7
+  status: outdated
+  summary: GO Simple Tunnel - a simple tunnel written in golang
+  maintainers:
+    - mengzhuo@iscas.ac.cn
+  licenses:
+    - MIT
+- repo: alpine_edge
+  subrepo: community
+  srcname: gost
+  binname: gost-doc
+  visiblename: gost-doc
+  version: 3.2.6
+  origversion: 3.2.6-r7
+  status: outdated
+  summary: GO Simple Tunnel - a simple tunnel written in golang (documentation)
+  maintainers:
+    - mengzhuo@iscas.ac.cn
+  licenses:
+    - MIT
 - repo: altsisyphus
   srcname: gost
   binnames:
@@ -35,19 +125,6 @@
     - MIT
   categories:
     - Networking/Other
-- repo: alpine_edge
-  subrepo: community
-  srcname: gost
-  binname: gost
-  visiblename: gost
-  version: 3.2.6
-  origversion: 3.2.6-r7
-  status: outdated
-  summary: GO Simple Tunnel - a simple tunnel written in golang
-  maintainers:
-    - mengzhuo@iscas.ac.cn
-  licenses:
-    - MIT
 - repo: aosc
   srcname: app-proxy/gost
   binname: gost
@@ -60,69 +137,15 @@
     - fallback-mnt-aosc@repology
   categories:
     - net
-- repo: alpine_edge
-  subrepo: community
-  srcname: gost
-  binname: gost-doc
-  visiblename: gost-doc
-  version: 3.2.6
-  origversion: 3.2.6-r7
-  status: outdated
-  summary: GO Simple Tunnel - a simple tunnel written in golang (documentation)
-  maintainers:
-    - mengzhuo@iscas.ac.cn
-  licenses:
-    - MIT
-- repo: alpine_3_23
-  subrepo: community
+- repo: arch
+  subrepo: extra
   srcname: gost
   binname: gost
   visiblename: gost
-  version: 3.2.5
-  origversion: 3.2.5-r6
-  status: outdated
-  summary: GO Simple Tunnel - a simple tunnel written in golang
-  maintainers:
-    - mengzhuo@iscas.ac.cn
-  licenses:
-    - MIT
-- repo: alpine_3_23
-  subrepo: community
-  srcname: gost
-  binname: gost-doc
-  visiblename: gost-doc
-  version: 3.2.5
-  origversion: 3.2.5-r6
-  status: outdated
-  summary: GO Simple Tunnel - a simple tunnel written in golang (documentation)
-  maintainers:
-    - mengzhuo@iscas.ac.cn
-  licenses:
-    - MIT
-- repo: alpine_3_24
-  subrepo: community
-  srcname: gost
-  binname: gost
-  visiblename: gost
-  version: 3.2.6
-  origversion: 3.2.6-r7
-  status: outdated
-  summary: GO Simple Tunnel - a simple tunnel written in golang
-  maintainers:
-    - mengzhuo@iscas.ac.cn
-  licenses:
-    - MIT
-- repo: alpine_3_24
-  subrepo: community
-  srcname: gost
-  binname: gost-doc
-  visiblename: gost-doc
-  version: 3.2.6
-  origversion: 3.2.6-r7
-  status: outdated
-  summary: GO Simple Tunnel - a simple tunnel written in golang (documentation)
-  maintainers:
-    - mengzhuo@iscas.ac.cn
+  version: 3.3.2
+  origversion: 3.3.2-1
+  status: newest
+  summary: GO Simple Tunnel
   licenses:
     - MIT
 - repo: debian_11
@@ -205,13 +228,6 @@
   origversion: null
   status: newest
   summary: GO Simple Tunnel - a simple tunnel written in golang
-- repo: homebrew
-  srcname: gost
-  visiblename: gost
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: GO Simple Tunnel - a simple tunnel written in golang
 - repo: macports
   srcname: net/gost
   binname: gost
@@ -232,8 +248,8 @@
   srcname: gost
   binname: gost
   visiblename: gost
-  version: 3.3.0
-  origversion: 3.3.0-1
+  version: 2.11.5
+  origversion: 2.11.5-1
   status: outdated
   summary: GO Simple Tunnel
   licenses:
@@ -243,8 +259,8 @@
   srcname: gost
   binname: gost
   visiblename: gost
-  version: 3.3.0
-  origversion: 3.3.0-1
+  version: 2.11.5
+  origversion: 2.11.5-1
   status: outdated
   summary: GO Simple Tunnel
   licenses:
@@ -332,32 +348,6 @@
     - i@qaq.li
   licenses:
     - MIT
-- repo: parabola
-  subrepo: extra
-  srcname: gost
-  binname: gost
-  visiblename: gost
-  version: 3.3.2
-  origversion: 3.3.2-1
-  status: newest
-  summary: GO Simple Tunnel
-  licenses:
-    - MIT
-- repo: pardus_21
-  subrepo: main
-  srcname: gost
-  binnames:
-    - golang-github-knqyf263-gost-dev
-    - gost
-  visiblename: gost
-  version: 0.1.0+git20181204.5afeda5e
-  origversion: 0.1.0+git20181204.5afeda5e-1.1
-  status: outdated
-  maintainers:
-    - pkg-go-maintainers@lists.alioth.debian.org
-    - iwamatsu@debian.org
-  categories:
-    - misc
 - repo: pureos_amber
   subrepo: amber/main
   srcname: gost
@@ -455,6 +445,16 @@
     - anton@samokhvalov.xyz
   categories:
     - bin
+- repo: termux
+  srcname: gost
+  binname: gost
+  visiblename: gost
+  version: 3.3.2
+  origversion: null
+  status: newest
+  summary: GO Simple Tunnel - a simple tunnel written in golang
+  maintainers:
+    - ian4hu@github
 - repo: ubuntu_20_04
   subrepo: focal/universe
   srcname: gost
