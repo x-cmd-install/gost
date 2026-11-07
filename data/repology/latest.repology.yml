@@ -1,40 +1,16 @@
-- repo: deepin_25
-  subrepo: community
-  srcname: gost
-  binnames:
-    - golang-github-knqyf263-gost-dev
-    - gost
-  visiblename: gost
-  version: 0.1.2
-  origversion: 0.1.2-2
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - iwamatsu@debian.org
-  categories:
-    - misc
-- repo: devuan_4_0
-  subrepo: chimaera/main
+- repo: deepin_unstable
+  subrepo: main
   srcname: gost
   binnames:
     - golang-github-knqyf263-gost-dev
     - gost
   visiblename: gost
   version: 0.1.0+git20181204.5afeda5e
-  origversion: 0.1.0+git20181204.5afeda5e-1.1
+  origversion: 0.1.0+git20181204.5afeda5e-1
   status: outdated
   maintainers:
     - pkg-go-maintainers@lists.alioth.debian.org
     - iwamatsu@debian.org
-  categories:
-    - misc
-- repo: homebrew
-  srcname: gost
-  visiblename: gost
-  version: 3.3.3
-  origversion: null
-  status: newest
-  summary: GO Simple Tunnel - a simple tunnel written in golang
 - repo: alpine_3_23
   subrepo: community
   srcname: gost
@@ -182,19 +158,50 @@
     - iwamatsu@debian.org
   categories:
     - misc
-- repo: deepin_unstable
-  subrepo: main
+- repo: deepin_25
+  subrepo: community
+  srcname: gost
+  binnames:
+    - golang-github-knqyf263-gost-dev
+    - gost
+  visiblename: gost
+  version: 0.1.2
+  origversion: 0.1.2-2
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - iwamatsu@debian.org
+  categories:
+    - misc
+- repo: devuan_4_0
+  subrepo: chimaera/main
   srcname: gost
   binnames:
     - golang-github-knqyf263-gost-dev
     - gost
   visiblename: gost
   version: 0.1.0+git20181204.5afeda5e
-  origversion: 0.1.0+git20181204.5afeda5e-1
+  origversion: 0.1.0+git20181204.5afeda5e-1.1
   status: outdated
   maintainers:
     - pkg-go-maintainers@lists.alioth.debian.org
     - iwamatsu@debian.org
+  categories:
+    - misc
+- repo: homebrew
+  srcname: gost
+  visiblename: gost
+  version: 3.3.3
+  origversion: null
+  status: newest
+  summary: GO Simple Tunnel - a simple tunnel written in golang
+- repo: homebrew
+  srcname: gost
+  visiblename: gost
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: GO Simple Tunnel - a simple tunnel written in golang
 - repo: macports
   srcname: net/gost
   binname: gost
@@ -215,8 +222,8 @@
   srcname: gost
   binname: gost
   visiblename: gost
-  version: 2.11.5
-  origversion: 2.11.5-1
+  version: 3.3.0
+  origversion: 3.3.0-1
   status: outdated
   summary: GO Simple Tunnel
   licenses:
@@ -226,8 +233,8 @@
   srcname: gost
   binname: gost
   visiblename: gost
-  version: 2.11.5
-  origversion: 2.11.5-1
+  version: 3.3.2
+  origversion: 3.3.2-1
   status: outdated
   summary: GO Simple Tunnel
   licenses:
@@ -237,9 +244,9 @@
   srcname: gost
   binname: gost
   visiblename: gost
-  version: 3.3.1
-  origversion: 3.3.1-1
-  status: outdated
+  version: 3.3.3
+  origversion: 3.3.3-1
+  status: newest
   summary: GO Simple Tunnel
   licenses:
     - MIT
@@ -553,10 +560,3 @@
     - iwamatsu@debian.org
   categories:
     - universe/misc
-- repo: homebrew
-  srcname: gost
-  visiblename: gost
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: GO Simple Tunnel - a simple tunnel written in golang
