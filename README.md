@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 7,808 · **Forks**: 847 · **Open issues**: 801 · **Contributors**: 19
+- **Stars**: 7,814 · **Forks**: 849 · **Open issues**: 802 · **Contributors**: 19
 
 ## Totals (cumulative)
 
-- **Releases**: 36 · **Merged PRs**: 33 · **Open PRs**: 1 · **Closed issues**: 695 · **Open issues**: 106 · **Commits**: 577
+- **Releases**: 36 · **Merged PRs**: 33 · **Open PRs**: 1 · **Closed issues**: 695 · **Open issues**: 107 · **Commits**: 577
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-08 | 6 | 1 | 0 | 5 | 6 | 9 |
-| last60d | 2026-09-08 | 6 | 5 | 0 | 6 | 9 | 21 |
-| 90d | 2026-08-09 | 7 | 5 | 0 | 9 | 12 | 34 |
-| last180d | 2026-05-11 | 7 | 10 | 0 | 33 | 19 | 115 |
-| 360d | 2025-11-12 | 8 | 14 | 1 | 60 | 26 | 124 |
-| last720d | 2024-11-17 | 16 | 16 | 1 | 194 | 64 | 178 |
+| 30d | 2026-10-09 | 6 | 1 | 0 | 5 | 7 | 9 |
+| last60d | 2026-09-09 | 6 | 4 | 0 | 6 | 10 | 17 |
+| 90d | 2026-08-10 | 7 | 5 | 0 | 9 | 13 | 34 |
+| last180d | 2026-05-12 | 7 | 10 | 0 | 33 | 20 | 114 |
+| 360d | 2025-11-13 | 8 | 14 | 1 | 60 | 27 | 124 |
+| last720d | 2024-11-18 | 16 | 16 | 1 | 193 | 65 | 177 |
 
 ## Release assets
 
@@ -123,4 +123,4 @@ Install metadata for gost lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261107.yml` · 2026-11-07T07:06:30Z._
+_Snapshot: `data/card/261108.yml` · 2026-11-08T07:06:46Z._
