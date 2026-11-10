@@ -1,4 +1,15 @@
-- repo: deepin_unstable
+- repo: parabola
+  subrepo: extra
+  srcname: gost
+  binname: gost
+  visiblename: gost
+  version: 3.3.3
+  origversion: 3.3.3-1
+  status: newest
+  summary: GO Simple Tunnel
+  licenses:
+    - MIT
+- repo: pardus_21
   subrepo: main
   srcname: gost
   binnames:
@@ -6,11 +17,39 @@
     - gost
   visiblename: gost
   version: 0.1.0+git20181204.5afeda5e
-  origversion: 0.1.0+git20181204.5afeda5e-1
+  origversion: 0.1.0+git20181204.5afeda5e-1.1
   status: outdated
   maintainers:
     - pkg-go-maintainers@lists.alioth.debian.org
     - iwamatsu@debian.org
+  categories:
+    - misc
+- repo: nix_stable_25_11
+  srcname: gost
+  visiblename: gost
+  version: 3.2.5
+  origversion: null
+  status: outdated
+  summary: Simple tunnel written in golang
+  maintainers:
+    - pmy@xqzp.net
+    - nix@caseylink.com
+    - i@qaq.li
+  licenses:
+    - MIT
+- repo: nix_stable_26_05
+  srcname: gost
+  visiblename: gost
+  version: 3.3.2
+  origversion: null
+  status: outdated
+  summary: Simple tunnel written in golang
+  maintainers:
+    - pmy@xqzp.net
+    - nix@caseylink.com
+    - i@qaq.li
+  licenses:
+    - MIT
 - repo: alpine_3_23
   subrepo: community
   srcname: gost
@@ -109,9 +148,9 @@
   srcname: app-proxy/gost
   binname: gost
   visiblename: gost
-  version: 3.3.2
+  version: 3.3.3
   origversion: null
-  status: outdated
+  status: newest
   summary: GO Simple Tunnel
   maintainers:
     - fallback-mnt-aosc@repology
@@ -158,6 +197,19 @@
     - iwamatsu@debian.org
   categories:
     - misc
+- repo: deepin_unstable
+  subrepo: main
+  srcname: gost
+  binnames:
+    - golang-github-knqyf263-gost-dev
+    - gost
+  visiblename: gost
+  version: 0.1.0+git20181204.5afeda5e
+  origversion: 0.1.0+git20181204.5afeda5e-1
+  status: outdated
+  maintainers:
+    - pkg-go-maintainers@lists.alioth.debian.org
+    - iwamatsu@debian.org
 - repo: deepin_25
   subrepo: community
   srcname: gost
@@ -233,9 +285,9 @@
   srcname: gost
   binname: gost
   visiblename: gost
-  version: 3.3.2
-  origversion: 3.3.2-1
-  status: outdated
+  version: 3.3.3
+  origversion: 3.3.3-1
+  status: newest
   summary: GO Simple Tunnel
   licenses:
     - MIT
@@ -283,32 +335,6 @@
     - pmy@xqzp.net
   licenses:
     - MIT
-- repo: nix_stable_25_11
-  srcname: gost
-  visiblename: gost
-  version: 3.2.5
-  origversion: null
-  status: outdated
-  summary: Simple tunnel written in golang
-  maintainers:
-    - pmy@xqzp.net
-    - nix@caseylink.com
-    - i@qaq.li
-  licenses:
-    - MIT
-- repo: nix_stable_26_05
-  srcname: gost
-  visiblename: gost
-  version: 3.3.2
-  origversion: null
-  status: outdated
-  summary: Simple tunnel written in golang
-  maintainers:
-    - pmy@xqzp.net
-    - nix@caseylink.com
-    - i@qaq.li
-  licenses:
-    - MIT
 - repo: nix_unstable
   srcname: gost
   visiblename: gost
@@ -322,32 +348,6 @@
     - i@qaq.li
   licenses:
     - MIT
-- repo: parabola
-  subrepo: extra
-  srcname: gost
-  binname: gost
-  visiblename: gost
-  version: 3.3.3
-  origversion: 3.3.3-1
-  status: newest
-  summary: GO Simple Tunnel
-  licenses:
-    - MIT
-- repo: pardus_21
-  subrepo: main
-  srcname: gost
-  binnames:
-    - golang-github-knqyf263-gost-dev
-    - gost
-  visiblename: gost
-  version: 0.1.0+git20181204.5afeda5e
-  origversion: 0.1.0+git20181204.5afeda5e-1.1
-  status: outdated
-  maintainers:
-    - pkg-go-maintainers@lists.alioth.debian.org
-    - iwamatsu@debian.org
-  categories:
-    - misc
 - repo: pureos_amber
   subrepo: amber/main
   srcname: gost
