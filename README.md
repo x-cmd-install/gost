@@ -14,15 +14,15 @@ x install gost
 
 ## Code insight
 
-Total: **7,869** lines of code across **168** files in the top 5 languages.
+Total: **8,356** lines of code across **168** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
 | Go | 4,561 | 837 | 791 | 36 |
 | Yaml | 2,135 | 145 | 103 | 109 |
 | Python | 981 | 40 | 231 | 21 |
+| Sh | 566 | 22 | 66 | 1 |
 | Makefile | 91 | 0 | 31 | 1 |
-| Sh | 79 | 13 | 10 | 1 |
 
 ## OpenSSF Scorecard
 
@@ -42,28 +42,28 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `v3.3.4-nightly.20261102` (2026-11-02)
-- **Last commit**: 2026-11-02
+- **Latest**: `v3.3.4-nightly.20261111` (2026-11-02)
+- **Last commit**: 2026-11-11
 - **Assets in release**: 32
 
 ## Popularity
 
-- **Stars**: 7,838 · **Forks**: 851 · **Open issues**: 804 · **Contributors**: 19
+- **Stars**: 7,847 · **Forks**: 852 · **Open issues**: 804 · **Contributors**: 20
 
 ## Totals (cumulative)
 
-- **Releases**: 36 · **Merged PRs**: 33 · **Open PRs**: 2 · **Closed issues**: 695 · **Open issues**: 109 · **Commits**: 577
+- **Releases**: 36 · **Merged PRs**: 34 · **Open PRs**: 1 · **Closed issues**: 695 · **Open issues**: 109 · **Commits**: 580
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-12 | 6 | 1 | 1 | 4 | 8 | 9 |
-| last60d | 2026-09-12 | 6 | 4 | 1 | 6 | 11 | 17 |
-| 90d | 2026-08-13 | 7 | 5 | 1 | 9 | 15 | 34 |
-| last180d | 2026-05-15 | 7 | 10 | 1 | 32 | 21 | 114 |
-| 360d | 2025-11-16 | 8 | 14 | 2 | 60 | 29 | 124 |
-| last720d | 2024-11-21 | 16 | 16 | 2 | 191 | 67 | 177 |
+| 30d | 2026-10-13 | 6 | 2 | 0 | 4 | 8 | 11 |
+| last60d | 2026-09-13 | 6 | 5 | 0 | 6 | 11 | 19 |
+| 90d | 2026-08-14 | 7 | 6 | 0 | 9 | 15 | 36 |
+| last180d | 2026-05-16 | 7 | 11 | 0 | 32 | 21 | 116 |
+| 360d | 2025-11-17 | 8 | 15 | 1 | 60 | 29 | 126 |
+| last720d | 2024-11-22 | 16 | 17 | 1 | 191 | 67 | 180 |
 
 ## Release assets
 
@@ -104,13 +104,13 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **43** distros on [repology.org](https://repology.org/project/gost). **7** are ✅ on the latest upstream release, **35** are ⚠️ on an older version.
+Reported by **43** distros on [repology.org](https://repology.org/project/gost). **8** are ✅ on the latest upstream release, **34** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
 | Ubuntu 24.04 LTS | `0.1.2` | ⚠️ outdated |
 | Arch | `3.3.3` | ✅ latest |
-| Homebrew | `3.3.3` | ✅ latest |
+| Homebrew | `HEAD` | 🔄 rolling |
 | Nix unstable | `3.3.2` | ⚠️ outdated |
 | Alpine edge | `3.2.6` | ⚠️ outdated |
 
@@ -123,4 +123,4 @@ Install metadata for gost lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261111.yml` · 2026-11-11T07:38:07Z._
+_Snapshot: `data/card/261112.yml` · 2026-11-12T08:39:20Z._
