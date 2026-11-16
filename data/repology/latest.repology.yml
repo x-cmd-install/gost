@@ -1,4 +1,4 @@
-- repo: manjaro_testing
+- repo: parabola
   subrepo: extra
   srcname: gost
   binname: gost
@@ -9,22 +9,28 @@
   summary: GO Simple Tunnel
   licenses:
     - MIT
-- repo: homebrew
+- repo: nix_stable_25_05
   srcname: gost
   visiblename: gost
-  version: HEAD
+  version: 2.12.0
   origversion: null
-  status: rolling
-  summary: GO Simple Tunnel - a simple tunnel written in golang
-- repo: manjaro_unstable
-  subrepo: extra
+  status: outdated
+  summary: Simple tunnel written in golang
+  maintainers:
+    - pmy@xqzp.net
+  licenses:
+    - MIT
+- repo: nix_stable_25_11
   srcname: gost
-  binname: gost
   visiblename: gost
-  version: 3.3.3
-  origversion: 3.3.3-1
-  status: newest
-  summary: GO Simple Tunnel
+  version: 3.2.5
+  origversion: null
+  status: outdated
+  summary: Simple tunnel written in golang
+  maintainers:
+    - pmy@xqzp.net
+    - nix@caseylink.com
+    - i@qaq.li
   licenses:
     - MIT
 - repo: alpine_3_23
@@ -40,13 +46,6 @@
     - mengzhuo@iscas.ac.cn
   licenses:
     - MIT
-- repo: homebrew
-  srcname: gost
-  visiblename: gost
-  version: 3.3.3
-  origversion: null
-  status: newest
-  summary: GO Simple Tunnel - a simple tunnel written in golang
 - repo: alpine_3_23
   subrepo: community
   srcname: gost
@@ -224,6 +223,20 @@
     - iwamatsu@debian.org
   categories:
     - misc
+- repo: homebrew
+  srcname: gost
+  visiblename: gost
+  version: 3.3.3
+  origversion: null
+  status: newest
+  summary: GO Simple Tunnel - a simple tunnel written in golang
+- repo: homebrew
+  srcname: gost
+  visiblename: gost
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: GO Simple Tunnel - a simple tunnel written in golang
 - repo: macports
   srcname: net/gost
   binname: gost
@@ -250,6 +263,28 @@
   summary: GO Simple Tunnel
   licenses:
     - MIT
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: gost
+  binname: gost
+  visiblename: gost
+  version: 3.3.3
+  origversion: 3.3.3-1
+  status: newest
+  summary: GO Simple Tunnel
+  licenses:
+    - MIT
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: gost
+  binname: gost
+  visiblename: gost
+  version: 3.3.3
+  origversion: 3.3.3-1
+  status: newest
+  summary: GO Simple Tunnel
+  licenses:
+    - MIT
 - repo: nix_stable_24_05
   srcname: gost
   visiblename: gost
@@ -272,30 +307,6 @@
     - pmy@xqzp.net
   licenses:
     - MIT
-- repo: nix_stable_25_05
-  srcname: gost
-  visiblename: gost
-  version: 2.12.0
-  origversion: null
-  status: outdated
-  summary: Simple tunnel written in golang
-  maintainers:
-    - pmy@xqzp.net
-  licenses:
-    - MIT
-- repo: nix_stable_25_11
-  srcname: gost
-  visiblename: gost
-  version: 3.2.5
-  origversion: null
-  status: outdated
-  summary: Simple tunnel written in golang
-  maintainers:
-    - pmy@xqzp.net
-    - nix@caseylink.com
-    - i@qaq.li
-  licenses:
-    - MIT
 - repo: nix_stable_26_05
   srcname: gost
   visiblename: gost
@@ -312,25 +323,14 @@
 - repo: nix_unstable
   srcname: gost
   visiblename: gost
-  version: 3.3.2
+  version: 3.3.3
   origversion: null
-  status: outdated
+  status: newest
   summary: Simple tunnel written in golang
   maintainers:
     - pmy@xqzp.net
     - nix@caseylink.com
     - i@qaq.li
-  licenses:
-    - MIT
-- repo: parabola
-  subrepo: extra
-  srcname: gost
-  binname: gost
-  visiblename: gost
-  version: 3.3.3
-  origversion: 3.3.3-1
-  status: newest
-  summary: GO Simple Tunnel
   licenses:
     - MIT
 - repo: pardus_21
