@@ -48,7 +48,7 @@ x install gost
 
 ## 流行度
 
-- **Star**: 7,872 · **Fork**: 850 · **开放 issue**: 804 · **贡献者**: 20
+- **Star**: 7,882 · **Fork**: 851 · **开放 issue**: 804 · **贡献者**: 20
 
 ## 累计统计
 
@@ -58,12 +58,12 @@ x install gost
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-16 | 6 | 2 | 1 | 4 | 6 | 11 |
-| last60d | 2026-09-16 | 6 | 4 | 1 | 5 | 11 | 19 |
-| 90d | 2026-08-17 | 7 | 6 | 1 | 9 | 15 | 36 |
-| last180d | 2026-05-19 | 7 | 11 | 1 | 31 | 21 | 116 |
-| 360d | 2025-11-20 | 8 | 15 | 2 | 60 | 29 | 126 |
-| last720d | 2024-11-25 | 16 | 17 | 2 | 190 | 67 | 179 |
+| 30d | 2026-10-17 | 6 | 2 | 1 | 4 | 6 | 6 |
+| last60d | 2026-09-17 | 6 | 4 | 1 | 5 | 11 | 14 |
+| 90d | 2026-08-18 | 7 | 6 | 1 | 8 | 15 | 33 |
+| last180d | 2026-05-20 | 7 | 11 | 1 | 31 | 21 | 113 |
+| 360d | 2025-11-21 | 8 | 15 | 2 | 60 | 29 | 125 |
+| last720d | 2024-11-26 | 16 | 17 | 2 | 190 | 67 | 179 |
 
 ## Release 资产
 
@@ -104,14 +104,14 @@ x install gost
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/gost) 上共有 **43** 个发行版报告此项目。**8** 个 ✅ 已是最新上游版本，**34** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/gost) 上共有 **43** 个发行版报告此项目。**9** 个 ✅ 已是最新上游版本，**33** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
 | Ubuntu 24.04 LTS | `0.1.2` | ⚠️ outdated |
 | Arch | `3.3.3` | ✅ latest |
-| Homebrew | `HEAD` | 🔄 rolling |
-| Nix unstable | `3.3.2` | ⚠️ outdated |
+| Homebrew | `3.3.3` | ✅ latest |
+| Nix unstable | `3.3.3` | ✅ latest |
 | Alpine edge | `3.2.6` | ⚠️ outdated |
 
 ## 改进这些数据
@@ -123,4 +123,4 @@ gost 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261115.yml` · 2026-11-15T07:53:46Z._
+_数据快照: `data/card/261116.yml` · 2026-11-16T08:22:44Z._
