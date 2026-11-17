@@ -30,7 +30,7 @@ Overall score: **3.9 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (1/10) — Found 4/28 approved changesets -- score normalized to 1
+- **Code-Review** (1/10) — Found 5/27 approved changesets -- score normalized to 1
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 7,882 · **Forks**: 851 · **Open issues**: 804 · **Contributors**: 20
+- **Stars**: 7,892 · **Forks**: 850 · **Open issues**: 804 · **Contributors**: 20
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-17 | 6 | 2 | 1 | 4 | 6 | 6 |
-| last60d | 2026-09-17 | 6 | 4 | 1 | 5 | 11 | 14 |
-| 90d | 2026-08-18 | 7 | 6 | 1 | 8 | 15 | 33 |
-| last180d | 2026-05-20 | 7 | 11 | 1 | 31 | 21 | 113 |
-| 360d | 2025-11-21 | 8 | 15 | 2 | 60 | 29 | 125 |
-| last720d | 2024-11-26 | 16 | 17 | 2 | 190 | 67 | 179 |
+| 30d | 2026-10-18 | 6 | 2 | 1 | 4 | 6 | 6 |
+| last60d | 2026-09-18 | 6 | 4 | 1 | 5 | 11 | 14 |
+| 90d | 2026-08-19 | 7 | 6 | 1 | 8 | 15 | 33 |
+| last180d | 2026-05-21 | 7 | 11 | 1 | 31 | 21 | 113 |
+| 360d | 2025-11-22 | 8 | 15 | 2 | 60 | 29 | 125 |
+| last720d | 2024-11-27 | 16 | 17 | 2 | 190 | 67 | 179 |
 
 ## Release assets
 
@@ -123,4 +123,4 @@ Install metadata for gost lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261116.yml` · 2026-11-16T08:22:43Z._
+_Snapshot: `data/card/261117.yml` · 2026-11-17T08:39:58Z._
