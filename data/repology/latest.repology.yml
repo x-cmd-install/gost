@@ -10,6 +10,27 @@
     - fallback-mnt-aosc@repology
   categories:
     - net
+- repo: arch
+  subrepo: extra
+  srcname: gost
+  binname: gost
+  visiblename: gost
+  version: 3.3.3
+  origversion: 3.3.3-1
+  status: newest
+  summary: GO Simple Tunnel
+  licenses:
+    - MIT
+- repo: termux
+  srcname: gost
+  binname: gost
+  visiblename: gost
+  version: 3.3.3
+  origversion: null
+  status: newest
+  summary: GO Simple Tunnel - a simple tunnel written in golang
+  maintainers:
+    - ian4hu@github
 - repo: alpine_3_23
   subrepo: community
   srcname: gost
@@ -104,17 +125,6 @@
     - MIT
   categories:
     - Networking/Other
-- repo: arch
-  subrepo: extra
-  srcname: gost
-  binname: gost
-  visiblename: gost
-  version: 3.3.3
-  origversion: 3.3.3-1
-  status: newest
-  summary: GO Simple Tunnel
-  licenses:
-    - MIT
 - repo: debian_11
   subrepo: bullseye/main
   srcname: gost
@@ -145,19 +155,6 @@
     - iwamatsu@debian.org
   categories:
     - misc
-- repo: deepin_unstable
-  subrepo: main
-  srcname: gost
-  binnames:
-    - golang-github-knqyf263-gost-dev
-    - gost
-  visiblename: gost
-  version: 0.1.0+git20181204.5afeda5e
-  origversion: 0.1.0+git20181204.5afeda5e-1
-  status: outdated
-  maintainers:
-    - pkg-go-maintainers@lists.alioth.debian.org
-    - iwamatsu@debian.org
 - repo: deepin_25
   subrepo: community
   srcname: gost
@@ -445,16 +442,6 @@
     - anton@samokhvalov.xyz
   categories:
     - bin
-- repo: termux
-  srcname: gost
-  binname: gost
-  visiblename: gost
-  version: 3.3.3
-  origversion: null
-  status: newest
-  summary: GO Simple Tunnel - a simple tunnel written in golang
-  maintainers:
-    - ian4hu@github
 - repo: ubuntu_20_04
   subrepo: focal/universe
   srcname: gost
