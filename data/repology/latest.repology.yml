@@ -1,36 +1,33 @@
-- repo: aosc
-  srcname: app-proxy/gost
-  binname: gost
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: gost
+  binnames:
+    - golang-github-knqyf263-gost-dev
+    - gost
   visiblename: gost
-  version: 3.3.3
-  origversion: 3.3.3-1
-  status: newest
-  summary: GO Simple Tunnel
+  version: 0.1.0+git20181204.5afeda5e
+  origversion: 0.1.0+git20181204.5afeda5e-1.1
+  status: outdated
   maintainers:
-    - fallback-mnt-aosc@repology
+    - pkg-go-maintainers@lists.alioth.debian.org
+    - iwamatsu@debian.org
   categories:
-    - net
-- repo: arch
-  subrepo: extra
+    - misc
+- repo: deepin_25
+  subrepo: community
   srcname: gost
-  binname: gost
+  binnames:
+    - golang-github-knqyf263-gost-dev
+    - gost
   visiblename: gost
-  version: 3.3.3
-  origversion: 3.3.3-1
-  status: newest
-  summary: GO Simple Tunnel
-  licenses:
-    - MIT
-- repo: termux
-  srcname: gost
-  binname: gost
-  visiblename: gost
-  version: 3.3.3
-  origversion: null
-  status: newest
-  summary: GO Simple Tunnel - a simple tunnel written in golang
+  version: 0.1.2
+  origversion: 0.1.2-2
+  status: outdated
   maintainers:
-    - ian4hu@github
+    - team+pkg-go@tracker.debian.org
+    - iwamatsu@debian.org
+  categories:
+    - misc
 - repo: alpine_3_23
   subrepo: community
   srcname: gost
@@ -125,6 +122,29 @@
     - MIT
   categories:
     - Networking/Other
+- repo: aosc
+  srcname: app-proxy/gost
+  binname: gost
+  visiblename: gost
+  version: 3.3.3
+  origversion: 3.3.3-1
+  status: newest
+  summary: GO Simple Tunnel
+  maintainers:
+    - fallback-mnt-aosc@repology
+  categories:
+    - net
+- repo: arch
+  subrepo: extra
+  srcname: gost
+  binname: gost
+  visiblename: gost
+  version: 3.3.3
+  origversion: 3.3.3-1
+  status: newest
+  summary: GO Simple Tunnel
+  licenses:
+    - MIT
 - repo: debian_11
   subrepo: bullseye/main
   srcname: gost
@@ -149,36 +169,6 @@
   visiblename: gost
   version: 0.1.0+git20181204.5afeda5e
   origversion: 0.1.0+git20181204.5afeda5e-1
-  status: outdated
-  maintainers:
-    - pkg-go-maintainers@lists.alioth.debian.org
-    - iwamatsu@debian.org
-  categories:
-    - misc
-- repo: deepin_25
-  subrepo: community
-  srcname: gost
-  binnames:
-    - golang-github-knqyf263-gost-dev
-    - gost
-  visiblename: gost
-  version: 0.1.2
-  origversion: 0.1.2-2
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - iwamatsu@debian.org
-  categories:
-    - misc
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: gost
-  binnames:
-    - golang-github-knqyf263-gost-dev
-    - gost
-  visiblename: gost
-  version: 0.1.0+git20181204.5afeda5e
-  origversion: 0.1.0+git20181204.5afeda5e-1.1
   status: outdated
   maintainers:
     - pkg-go-maintainers@lists.alioth.debian.org
@@ -219,9 +209,9 @@
   srcname: gost
   binname: gost
   visiblename: gost
-  version: 3.3.0
-  origversion: 3.3.0-1
-  status: outdated
+  version: 3.3.3
+  origversion: 3.3.3-1
+  status: newest
   summary: GO Simple Tunnel
   licenses:
     - MIT
@@ -442,6 +432,16 @@
     - anton@samokhvalov.xyz
   categories:
     - bin
+- repo: termux
+  srcname: gost
+  binname: gost
+  visiblename: gost
+  version: 3.3.3
+  origversion: null
+  status: newest
+  summary: GO Simple Tunnel - a simple tunnel written in golang
+  maintainers:
+    - ian4hu@github
 - repo: ubuntu_20_04
   subrepo: focal/universe
   srcname: gost
@@ -451,21 +451,6 @@
   visiblename: gost
   version: 0.1.0+git20181204.5afeda5e
   origversion: 0.1.0+git20181204.5afeda5e-1
-  status: outdated
-  maintainers:
-    - pkg-go-maintainers@lists.alioth.debian.org
-    - iwamatsu@debian.org
-  categories:
-    - universe/misc
-- repo: ubuntu_22_04
-  subrepo: jammy/universe
-  srcname: gost
-  binnames:
-    - golang-github-knqyf263-gost-dev
-    - gost
-  visiblename: gost
-  version: 0.1.0+git20181204.5afeda5e
-  origversion: 0.1.0+git20181204.5afeda5e-1.1
   status: outdated
   maintainers:
     - pkg-go-maintainers@lists.alioth.debian.org
@@ -484,6 +469,21 @@
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
+    - iwamatsu@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_22_04
+  subrepo: jammy/universe
+  srcname: gost
+  binnames:
+    - golang-github-knqyf263-gost-dev
+    - gost
+  visiblename: gost
+  version: 0.1.0+git20181204.5afeda5e
+  origversion: 0.1.0+git20181204.5afeda5e-1.1
+  status: outdated
+  maintainers:
+    - pkg-go-maintainers@lists.alioth.debian.org
     - iwamatsu@debian.org
   categories:
     - universe/misc
